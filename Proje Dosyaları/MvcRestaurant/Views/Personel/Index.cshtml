@@ -1,0 +1,149 @@
+﻿@using MvcRestaurant.Models.Entity
+@model List<TBLPERSONEL>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<br />
+<h2>PERSONEL TAKİP</h2>
+<link href="~/web2/css/style.css" rel="stylesheet" />
+<script src="~/web2/js/Chart1.js"></script>
+<div class="list_of_members">
+    <div class="visitors">
+        <div class="icon">
+            <i class="user1"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr1</h3>
+            <p>Personel Sayisi</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="new-users">
+        <div class="icon">
+            <i class="user1"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr2</h3>
+            <p>Toplam Üye Sayisi</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="orders">
+        <div class="icon">
+            <i class="order"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr3</h3>
+            <p>Yemek Sayisi</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="visitors">
+        <div class="icon">
+            <i class="visit"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr4</h3>
+            <p>Rezervasyon Sayisi</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+
+<div class="list_of_members">
+    <div class="visitors">
+        <div class="icon">
+            <i class="user1"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr5</h3>
+            <p>Şef Sayisi</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="new-users">
+        <div class="icon">
+            <i class="visit"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr6</h3>
+            <p>Kategori Sayisi</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="orders">
+        <div class="icon">
+            <i class="order"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr7</h3>
+            <p>Başarılı Satiş</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="visitors">
+        <div class="icon">
+            <i class="order"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr8</h3>
+            <p>iptal sayisi</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+
+<div class="list_of_members">
+    <div class="visitors">
+        <div class="icon">
+            <i class="order"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr9</h3>
+            <p>Maliyet</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="new-users">
+        <div class="icon">
+            <i class="order"></i>
+        </div>
+        <div class="icon-text">
+            <h3>@ViewBag.dgr10</h3>
+            <p>Kazanç</p>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<table class="table table-bordered">
+    <tr>
+        <th>PERSONEL ID</th>
+        <th>PERSONEL ADI-SOYAD</th>
+        <th>Durum</th>
+        <th>Çalısma Saatleri</th>
+        <th>SİL</th>
+        <th>GÜNCELLE</th>
+    </tr>
+    @foreach (var prs in Model)
+    {
+        <tr>
+            <th>@prs.ID</th>
+            <th>@prs.PERSONEL</th>
+            <th>@prs.Durum</th>
+            <th>@prs.Calisma</th>
+            <th><a href="/Personel/PersonelSil/@prs.ID" class="btn btn-danger">Sil</a></th>
+            <th><a href="/Personel/PersoneliGetir/@prs.ID" class="btn btn-success">Güncelle</a></th>
+        </tr>
+    }
+</table>
+<a href="/Personel/PersonelEkle/" class="btn btn-primary">Yeni Personel Ekle</a>
+<br />
+<br />
+
+
+

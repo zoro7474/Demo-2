@@ -1,0 +1,23 @@
+﻿@model MvcRestaurant.Models.Entity.TBLRezervasyon
+@{
+    ViewBag.Title = "SiparisiGetir";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+@using (Html.BeginForm("SiparisiGuncelle", "sefyemekyapma", FormMethod.Post))
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        @Html.LabelFor(k => k.ID)
+        @Html.TextBoxFor(k => k.ID, new { @class = "form-control" })
+        <label>Şef Durumu</label>
+        @Html.TextBoxFor(k => k.sefdurum, new { @class = "form-control" })
+        <label>Maliyet</label>
+        @Html.TextBoxFor(k => k.satiss, new { @class = "form-control" })
+        <br />
+    </div>
+    <div>
+        <button class="btn btn-warning">Güncelle</button>
+    </div>
+}
+

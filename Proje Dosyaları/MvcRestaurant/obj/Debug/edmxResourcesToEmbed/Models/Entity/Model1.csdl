@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBRESTAURANTModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TBLHAREKET">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="YEMEK" Type="Int32" />
+    <Property Name="UYE" Type="Int32" />
+    <Property Name="PERSONEL" Type="Int32" />
+    <NavigationProperty Name="TBLUYELER" Relationship="Self.FK_TBLHAREKET_TBLUYELER" FromRole="TBLHAREKET" ToRole="TBLUYELER" />
+    <NavigationProperty Name="TBLYEMEK" Relationship="Self.FK_TBLHAREKET_TBLYEMEK" FromRole="TBLHAREKET" ToRole="TBLYEMEK" />
+    <Property Name="MasaNo" Type="Int32" />
+    <Property Name="SIPARISTAHi" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="KisiSayisi" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBLKASA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AY" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TUTAR" Type="Decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="TBLKATAGORI">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBLYEMEK" Relationship="Self.FK_TBLYEMEK_TBLKATAGORI" FromRole="TBLKATAGORI" ToRole="TBLYEMEK" />
+  </EntityType>
+  <EntityType Name="TBLPERSONEL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PERSONEL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Durum" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Calisma" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLSEF">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SOYAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DETAY" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBLYEMEK" Relationship="Self.FK_TBLYEMEK_TBLSEF" FromRole="TBLSEF" ToRole="TBLYEMEK" />
+  </EntityType>
+  <EntityType Name="TBLUYELER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SOYAD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="YETKİ" Type="Int32" />
+    <Property Name="MAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KULLANICIADI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SIFRE" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TEL" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TBLHAREKET" Relationship="Self.FK_TBLHAREKET_TBLUYELER" FromRole="TBLUYELER" ToRole="TBLHAREKET" />
+    <Property Name="Fotograf" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLYEMEK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KATEGORI" Type="Byte" />
+    <Property Name="SEF" Type="Int32" />
+    <Property Name="UCRET" Type="Int32" />
+    <Property Name="DURUM" Type="Boolean" />
+    <NavigationProperty Name="TBLHAREKET" Relationship="Self.FK_TBLHAREKET_TBLYEMEK" FromRole="TBLYEMEK" ToRole="TBLHAREKET" />
+    <NavigationProperty Name="TBLKATAGORI" Relationship="Self.FK_TBLYEMEK_TBLKATAGORI" FromRole="TBLYEMEK" ToRole="TBLKATAGORI" />
+    <NavigationProperty Name="TBLSEF" Relationship="Self.FK_TBLYEMEK_TBLSEF" FromRole="TBLYEMEK" ToRole="TBLSEF" />
+    <Property Name="Resim" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK_TBLHAREKET_TBLUYELER">
+    <End Role="TBLUYELER" Type="Self.TBLUYELER" Multiplicity="0..1" />
+    <End Role="TBLHAREKET" Type="Self.TBLHAREKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLUYELER">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLHAREKET">
+        <PropertyRef Name="UYE" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLHAREKET_TBLYEMEK">
+    <End Role="TBLYEMEK" Type="Self.TBLYEMEK" Multiplicity="0..1" />
+    <End Role="TBLHAREKET" Type="Self.TBLHAREKET" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLYEMEK">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLHAREKET">
+        <PropertyRef Name="YEMEK" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLYEMEK_TBLKATAGORI">
+    <End Role="TBLKATAGORI" Type="Self.TBLKATAGORI" Multiplicity="0..1" />
+    <End Role="TBLYEMEK" Type="Self.TBLYEMEK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLKATAGORI">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLYEMEK">
+        <PropertyRef Name="KATEGORI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TBLYEMEK_TBLSEF">
+    <End Role="TBLSEF" Type="Self.TBLSEF" Multiplicity="0..1" />
+    <End Role="TBLYEMEK" Type="Self.TBLYEMEK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TBLSEF">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TBLYEMEK">
+        <PropertyRef Name="SEF" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBRESTAURANTEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TBLHAREKET" EntityType="Self.TBLHAREKET" />
+    <EntitySet Name="TBLKASA" EntityType="Self.TBLKASA" />
+    <EntitySet Name="TBLKATAGORI" EntityType="Self.TBLKATAGORI" />
+    <EntitySet Name="TBLPERSONEL" EntityType="Self.TBLPERSONEL" />
+    <EntitySet Name="TBLSEF" EntityType="Self.TBLSEF" />
+    <EntitySet Name="TBLUYELER" EntityType="Self.TBLUYELER" />
+    <EntitySet Name="TBLYEMEK" EntityType="Self.TBLYEMEK" />
+    <AssociationSet Name="FK_TBLHAREKET_TBLUYELER" Association="Self.FK_TBLHAREKET_TBLUYELER">
+      <End Role="TBLUYELER" EntitySet="TBLUYELER" />
+      <End Role="TBLHAREKET" EntitySet="TBLHAREKET" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLHAREKET_TBLYEMEK" Association="Self.FK_TBLHAREKET_TBLYEMEK">
+      <End Role="TBLYEMEK" EntitySet="TBLYEMEK" />
+      <End Role="TBLHAREKET" EntitySet="TBLHAREKET" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLYEMEK_TBLKATAGORI" Association="Self.FK_TBLYEMEK_TBLKATAGORI">
+      <End Role="TBLKATAGORI" EntitySet="TBLKATAGORI" />
+      <End Role="TBLYEMEK" EntitySet="TBLYEMEK" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TBLYEMEK_TBLSEF" Association="Self.FK_TBLYEMEK_TBLSEF">
+      <End Role="TBLSEF" EntitySet="TBLSEF" />
+      <End Role="TBLYEMEK" EntitySet="TBLYEMEK" />
+    </AssociationSet>
+    <EntitySet Name="TBLMESAJLAR" EntityType="DBRESTAURANTModel.TBLMESAJLAR" />
+    <EntitySet Name="TBLDUYURULAR" EntityType="DBRESTAURANTModel.TBLDUYURULAR" />
+    <EntitySet Name="TBLRezervasyon" EntityType="DBRESTAURANTModel.TBLRezervasyon" />
+    <EntitySet Name="TBLHAKKIMIZDA" EntityType="DBRESTAURANTModel.TBLHAKKIMIZDA" />
+    <EntitySet Name="TBLİLETİSİM" EntityType="DBRESTAURANTModel.TBLİLETİSİM" />
+  </EntityContainer>
+  <EntityType Name="TBLMESAJLAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GONDEREN" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ALICI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="KONU" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="İCERİK" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="TARİH" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="TBLDUYURULAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="KATEGORI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ICERİK" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="TARİH" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="TBLRezervasyon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Yemeksecimi" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ad" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="telefon" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="personeladi" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="rezervasyontarihi" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="masano" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="kisisayisi" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="garsondurum" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sefdurum" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mailadresi" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="İstekler" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="maliyet" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="satis" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+    <Property Name="kar" Type="Int32" />
+    <Property Name="satiss" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TBLHAKKIMIZDA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Byte" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ACIKLAMA" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TBLİLETİSİM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="konu" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mesaj" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+  </EntityType>
+</Schema>

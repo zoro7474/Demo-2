@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBRESTAURANTModelStoreContainer" CdmEntityContainer="DBRESTAURANTEntities">
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLHAREKET">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLHAREKET">
+        <MappingFragment StoreEntitySet="TBLHAREKET">
+          <ScalarProperty Name="KisiSayisi" ColumnName="KisiSayisi" />
+          <ScalarProperty Name="SIPARISTAHi" ColumnName="SIPARISTAHi" />
+          <ScalarProperty Name="MasaNo" ColumnName="MasaNo" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="YEMEK" ColumnName="YEMEK" />
+          <ScalarProperty Name="UYE" ColumnName="UYE" />
+          <ScalarProperty Name="PERSONEL" ColumnName="PERSONEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLKASA">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLKASA">
+        <MappingFragment StoreEntitySet="TBLKASA">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AY" ColumnName="AY" />
+          <ScalarProperty Name="TUTAR" ColumnName="TUTAR" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLKATAGORI">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLKATAGORI">
+        <MappingFragment StoreEntitySet="TBLKATAGORI">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLPERSONEL">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLPERSONEL">
+        <MappingFragment StoreEntitySet="TBLPERSONEL">
+          <ScalarProperty Name="Calisma" ColumnName="Calisma" />
+          <ScalarProperty Name="Durum" ColumnName="Durum" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="PERSONEL" ColumnName="PERSONEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLSEF">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLSEF">
+        <MappingFragment StoreEntitySet="TBLSEF">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="DETAY" ColumnName="DETAY" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLUYELER">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLUYELER">
+        <MappingFragment StoreEntitySet="TBLUYELER">
+          <ScalarProperty Name="Fotograf" ColumnName="Fotograf" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="SOYAD" ColumnName="SOYAD" />
+          <ScalarProperty Name="YETKİ" ColumnName="YETKİ" />
+          <ScalarProperty Name="MAIL" ColumnName="MAIL" />
+          <ScalarProperty Name="KULLANICIADI" ColumnName="KULLANICIADI" />
+          <ScalarProperty Name="SIFRE" ColumnName="SIFRE" />
+          <ScalarProperty Name="TEL" ColumnName="TEL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLYEMEK">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLYEMEK">
+        <MappingFragment StoreEntitySet="TBLYEMEK">
+          <ScalarProperty Name="Resim" ColumnName="Resim" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="KATEGORI" ColumnName="KATEGORI" />
+          <ScalarProperty Name="SEF" ColumnName="SEF" />
+          <ScalarProperty Name="UCRET" ColumnName="UCRET" />
+          <ScalarProperty Name="DURUM" ColumnName="DURUM" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLMESAJLAR">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLMESAJLAR">
+        <MappingFragment StoreEntitySet="TBLMESAJLAR">
+          <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+          <ScalarProperty Name="İCERİK" ColumnName="İCERİK" />
+          <ScalarProperty Name="KONU" ColumnName="KONU" />
+          <ScalarProperty Name="ALICI" ColumnName="ALICI" />
+          <ScalarProperty Name="GONDEREN" ColumnName="GONDEREN" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLDUYURULAR">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLDUYURULAR">
+        <MappingFragment StoreEntitySet="TBLDUYURULAR">
+          <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+          <ScalarProperty Name="ICERİK" ColumnName="ICERİK" />
+          <ScalarProperty Name="KATEGORI" ColumnName="KATEGORI" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLRezervasyon">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLRezervasyon">
+        <MappingFragment StoreEntitySet="TBLRezervasyon">
+          <ScalarProperty Name="satiss" ColumnName="satiss" />
+          <ScalarProperty Name="kar" ColumnName="kar" />
+          <ScalarProperty Name="satis" ColumnName="satis" />
+          <ScalarProperty Name="maliyet" ColumnName="maliyet" />
+          <ScalarProperty Name="İstekler" ColumnName="İstekler" />
+          <ScalarProperty Name="mailadresi" ColumnName="mailadresi" />
+          <ScalarProperty Name="sefdurum" ColumnName="sefdurum" />
+          <ScalarProperty Name="garsondurum" ColumnName="garsondurum" />
+          <ScalarProperty Name="kisisayisi" ColumnName="kisisayisi" />
+          <ScalarProperty Name="masano" ColumnName="masano" />
+          <ScalarProperty Name="rezervasyontarihi" ColumnName="rezervasyontarihi" />
+          <ScalarProperty Name="personeladi" ColumnName="personeladi" />
+          <ScalarProperty Name="telefon" ColumnName="telefon" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="Yemeksecimi" ColumnName="Yemeksecimi" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLHAKKIMIZDA">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLHAKKIMIZDA">
+        <MappingFragment StoreEntitySet="TBLHAKKIMIZDA">
+          <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBLİLETİSİM">
+      <EntityTypeMapping TypeName="DBRESTAURANTModel.TBLİLETİSİM">
+        <MappingFragment StoreEntitySet="TBLİLETİSİM">
+          <ScalarProperty Name="mesaj" ColumnName="mesaj" />
+          <ScalarProperty Name="konu" ColumnName="konu" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="AD" ColumnName="AD" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

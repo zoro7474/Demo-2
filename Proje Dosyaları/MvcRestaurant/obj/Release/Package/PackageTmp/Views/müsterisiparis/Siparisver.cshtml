@@ -1,0 +1,43 @@
+﻿@model MvcRestaurant.Models.Entity.TBLRezervasyon
+@{
+    ViewBag.Title = "Siparisver";
+    Layout = "~/Views/Shared/_LayoutPanelim.cshtml";
+}
+
+<h2>Rezervasyon Ekle</h2>
+<form class="form-group" method="post">
+    <div></div>
+    <div style="margin-top:15px">
+        <label>İstenilen Yemekler;</label>
+        @*<input type="text" class="form-control" name="Uye" />*@
+        @Html.TextBoxFor(x => x.Yemeksecimi, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Mail Adresiniz</label>
+        @*<input type="text" class="form-control" name="Uye" />*@
+        @Html.TextBoxFor(x => x.mailadresi, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Telefon No:</label>
+        @*<input type="text" class="form-control" name="Uye" />*@
+        @Html.TextBoxFor(x => x.telefon, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Rezervasyon Tarihi</label>
+        <input type="datetime" class="form-control" name="rezervasyontarihi" value="@DateTime.Now.ToString()" />
+    </div>
+    <div style="margin-top:15px">
+        <label>Kisi Sayisi</label>
+        @*<input type="password" class="form-control" name="Uye" />*@
+        @Html.TextBoxFor(x => x.kisisayisi, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Herhangibir Malzemeye Alerjiniz varsa Buradan Belirtebilirsiniz.</label>
+        @*<input type="password" class="form-control" name="Uye" />*@
+        @Html.TextAreaFor(x => x.İstekler, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="Btn1">Rezervasyon Ekle</button>
+    </div>
+</form>
+

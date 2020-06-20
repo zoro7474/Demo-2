@@ -1,0 +1,32 @@
+﻿
+@using MvcRestaurant.Models.Entity
+@model List<TBLSEF>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+    <h2>Şefler</h2>
+
+    <table class="table table-bordered">
+        <tr>
+            <th>ID</th>
+            <th>AD</th>
+            <th>SOYAD</th>
+            <th>DETAY</th>
+            <th>Sil</th>
+            <th>Güncelle</th>
+        </tr>
+        @foreach (var y in Model)
+        {
+    <tr>
+        <td>@y.ID</td>
+        <td>@y.AD</td>
+        <td>@y.SOYAD</td>
+        <td>@y.DETAY</td>
+        <td>@Html.ActionLink("Sil","SefSil",new { id = y.ID}, new { @class = "btn btn-danger", onclick = "return confirm('Silmek İstiyormusunuz?')" })</td>
+        <td><a href="/sefler/SefGetir/@y.ID" class="btn btn-success">Güncelle</a></td>
+    </tr>
+        }
+    </table>
+<a class="btn btn-primary" href="/sefler/SefEkle/">Yeni Şef Ekle</a>
+

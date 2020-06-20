@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="61b66bf3f07f4e1f849a784004959897" Name="Diagram1" ZoomLevel="105">
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLHAREKET" Width="2" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLKASA" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLKATAGORI" Width="1.5" PointX="0.75" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLPERSONEL" Width="1.5" PointX="7.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLSEF" Width="1.5" PointX="0.875" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLUYELER" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLYEMEK" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="DBRESTAURANTModel.FK_TBLHAREKET_TBLUYELER" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESTAURANTModel.FK_TBLHAREKET_TBLYEMEK" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESTAURANTModel.FK_TBLYEMEK_TBLKATAGORI" ManuallyRouted="false" />
+        <AssociationConnector Association="DBRESTAURANTModel.FK_TBLYEMEK_TBLSEF" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLMESAJLAR" Width="1.5" PointX="6.875" PointY="6.625" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLDUYURULAR" Width="1.5" PointX="9.875" PointY="6.375" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLRezervasyon" Width="2.125" PointX="0.625" PointY="8.125" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLHAKKIMIZDA" Width="3" PointX="3.375" PointY="8.75" />
+        <EntityTypeShape EntityType="DBRESTAURANTModel.TBLİLETİSİM" Width="1.5" PointX="7.375" PointY="9.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

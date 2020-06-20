@@ -1,0 +1,53 @@
+﻿@model MvcRestaurant.Models.Entity.TBLRezervasyon
+@{
+    ViewBag.Title = "SiparisiGetir";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+@using (Html.BeginForm("SiparisiGuncelle", "Siparis", FormMethod.Post))
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        @Html.LabelFor(k => k.ID)
+        @Html.TextBoxFor(k => k.ID, new { @class = "form-control" })
+        <br />
+        <label>Yemek Seçimi</label>
+        @Html.TextBoxFor(k => k.Yemeksecimi, new { @class = "form-control" })
+        <br />
+        <label>Ad Soyad</label>
+        @Html.TextBoxFor(k => k.ad, new { @class = "form-control" })
+        <br />
+        <label>Mail Adresi</label>
+        @Html.TextBoxFor(k => k.mailadresi, new { @class = "form-control" })
+        <br />
+        <label>Telefon</label>
+        @Html.TextAreaFor(k => k.telefon, new { @class = "form-control" })
+        <br />
+        <label>Personel Adı</label>
+        @Html.TextBoxFor(k => k.personeladi, new { @class = "form-control" })
+        <br />
+        <label>Rezervasyon Tarihi</label>
+        @Html.TextBoxFor(k => k.rezervasyontarihi, new { @class = "form-control" })
+        <br />
+        <label>Masa No</label>
+        @Html.TextBoxFor(k => k.masano, new { @class = "form-control" })
+        <br />
+        <label>Kisi Sayisi</label>
+        @Html.TextBoxFor(k => k.kisisayisi, new { @class = "form-control" })
+        <br />
+        <label>Garson Durumu</label>
+        @Html.TextBoxFor(k => k.garsondurum, new { @class = "form-control" })
+        <br />
+        <label>Sef Durumu</label>
+        @Html.TextBoxFor(k => k.sefdurum, new { @class = "form-control" })
+        <br />
+        <label>İstekler</label>
+        @Html.TextBoxFor(k => k.İstekler, new { @class = "form-control" })
+        <br />
+    </div>
+    <div>
+        <button class="btn btn-warning">Güncelle</button>
+    </div>
+}
+

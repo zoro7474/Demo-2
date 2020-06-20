@@ -1,0 +1,28 @@
+﻿@model MvcRestaurant.Models.Entity.TBLMESAJLAR
+@{
+    ViewBag.Title = "YeniMesaj";
+    Layout = "~/Views/Shared/_LayoutPanelim.cshtml";
+}
+    <br />
+<h2>Yeni Mesaj Oluştur.</h2>
+<form class="form-group" method="post">
+    <div></div>
+    <div style="margin-top:15px">
+        <label>Alıcı Mail</label>
+        @Html.TextBoxFor(x => x.ALICI, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>Konu</label>
+        @Html.TextBoxFor(x => x.KONU, new { @class = "form-control" })
+    </div>
+    <div style="margin-top:15px">
+        <label>İçerik</label>
+        @Html.TextAreaFor(x => x.İCERİK, new { @class = "form-control" })
+
+    </div>
+    <div style="margin-top:15px">
+        <button class="btn btn-info" id="Btn1">Mesaj Yolla</button>
+    </div>
+</form>
+
+

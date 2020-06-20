@@ -1,0 +1,47 @@
+﻿@model MvcRestaurant.Models.Entity.TBLUYELER
+    @{
+        ViewBag.Title = "UyeEkle";
+        Layout = "~/Views/Shared/Layout.cshtml";
+    }
+
+    <form class="form-group" method="post">
+        <div></div>
+        <div style="margin-top:15px">
+            <label>Üye Adı</label>
+            @*@<input type="text" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.AD, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.AD, "", new { @Style = "color:forestgreen" })
+            <label>Üye Soyad</label>
+            @*<input type="text" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.SOYAD, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.SOYAD, "", new { @Style = "color:forestgreen" })
+            <label>Üye Mail</label>
+            @*<input type="text" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.MAIL, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.MAIL, "", new { @Style = "color:forestgreen" })
+            <label>KullanciAdi</label>
+            @*<input type="text" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.KULLANICIADI, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.KULLANICIADI, "", new { @Style = "color:forestgreen" })
+            <label>Üye Sifre</label>
+            @*<input type="password" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.SIFRE, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.SIFRE, "", new { @Style = "color:forestgreen" })
+            <label>Üye tel</label>
+            @*<input type="text" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.TEL, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.TEL, "", new { @Style = "color:forestgreen" })
+            <label>Üye Yetki</label>
+            @*<input type="text" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.YETKİ, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.YETKİ, "", new { @Style = "color:forestgreen" })
+            <label>Üye Fotograf</label>
+            @* <input type="text" class="form-control" name="Uye" />*@
+            @Html.TextBoxFor(x => x.Fotograf, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Fotograf, "", new { @Style = "color:forestgreen" })
+        </div>
+            <div style="margin-top:15px">
+                <button class="btn btn-info" id="Btn1">Üye Ekle</button>
+            </div>
+        </form>
+

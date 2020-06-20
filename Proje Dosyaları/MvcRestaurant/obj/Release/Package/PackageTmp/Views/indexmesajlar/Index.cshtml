@@ -1,0 +1,29 @@
+﻿@using MvcRestaurant.Models.Entity
+@model List<TBLİLETİSİM>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Yardım Kısmı</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Mesaj ID</th>
+        <th>Ad Soyad</th>
+        <th>Mail</th>
+        <th>Konu</th>
+        <th>SİL</th>
+    </tr>
+    @foreach (var prs in Model)
+    {
+<tr>
+    <th>@prs.ID</th>
+    <th>@prs.AD</th>
+    <th>@prs.mail</th>
+    <th>@prs.konu</th>
+    <th><a href="/indexmesajlar/mesajSil/@prs.ID" class="btn btn-danger">Sil</a></th>
+</tr>
+    }
+</table>
+

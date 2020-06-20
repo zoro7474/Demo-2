@@ -1,0 +1,39 @@
+﻿@using MvcRestaurant.Models.Entity
+@model List<TBLYEMEK>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPanelim.cshtml";
+}
+
+<h2>Menü</h2>
+@using (Html.BeginForm("Index", "panelmenü", FormMethod.Get))
+{
+    <div style="margin-bottom:15px; margin-top:15px;">
+        <b>Aranacak yemek ismini giriniz.</b>@Html.TextBox("p")
+        <input type="submit" value="Ara" />
+    </div>
+}
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Yemek Adı</th>
+        <th>Katagori</th>
+        <th>Şef İsmi</th>
+        <th>Ücreti</th>
+        <th>Durum</th>
+    </tr>
+    @foreach (var k in Model)
+    {
+        <tr>
+            <td>@k.ID</td>
+            <td>@k.AD</td>
+            <td>@k.TBLKATAGORI.AD</td>
+            <td>@k.TBLSEF.AD  @k.TBLSEF.SOYAD</td>
+            <td>@k.UCRET</td>
+            <td>@k.DURUM</td>      
+        </tr>
+    }
+</table>
+
+
+

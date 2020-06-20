@@ -1,0 +1,29 @@
+﻿
+@using MvcRestaurant.Models.Entity
+@model List<TBLKATAGORI>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Kategoriler</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>KATEGORI ID</th>
+        <th>KATEGORI ADI</th>
+        <th>SİL</th>
+        <th>GÜNCELLE</th>
+    </tr>
+    @foreach (var kgt in Model)
+    {
+        <tr>
+            <th>@kgt.ID</th>
+            <th>@kgt.AD</th>
+            <th><a href="/Kategori/KategoriSil/@kgt.ID" class="btn btn-danger">Sil</a></th>
+            <th><a href="/Kategori/KategoriGetir/@kgt.ID" class="btn btn-success">Güncelle</a></th>
+        </tr>
+    }
+</table>
+<a href="/Kategori/KategoriEkle" class="btn btn-primary">Yeni Kategori Ekle</a> 

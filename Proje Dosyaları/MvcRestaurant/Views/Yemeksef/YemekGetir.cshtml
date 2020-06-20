@@ -1,0 +1,42 @@
+﻿@model MvcRestaurant.Models.Entity.TBLYEMEK
+@{
+    ViewBag.Title = "YemekGetir";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+@using (Html.BeginForm("YemekGuncelle", "Yemek", FormMethod.Post))
+{
+    <div style="margin-bottom:15px"></div>
+    <div class="form-group">
+        <div style="margin-bottom:15px">
+            <label>Yemek ID</label>
+            @Html.TextBoxFor(k => k.ID, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Yemek ADI</label>
+            @Html.TextBoxFor(k => k.AD, new { @class = "form-control" })
+        </div>
+
+        <div style="margin-top:15px">
+            <label>Kategori</label>
+            @Html.DropDownListFor(k => k.TBLKATAGORI.ID, (List<SelectListItem>)ViewBag.dgr1, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Şef Adı</label>
+            @Html.DropDownListFor(k => k.TBLSEF.ID, (List<SelectListItem>)ViewBag.dgr2, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Ücret</label>
+            @Html.TextBoxFor(k => k.UCRET, new { @class = "form-control" })
+        </div>
+        <div style="margin-bottom:15px">
+            <label>Resim Link</label>
+            @Html.TextBoxFor(k => k.Resim, new { @class = "form-control" })
+        </div>
+
+        <button class="btn btn-warning">Yemek Bilgilerini Güncelle</button>
+        <input type="hidden" name="Durum" value="True" />
+    </div>
+
+}
+

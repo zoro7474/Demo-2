@@ -1,0 +1,41 @@
+﻿@using MvcRestaurant.Models.Entity
+@model List<TBLRezervasyon>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPanelim.cshtml";
+}
+
+<h2>Rezervasyon Görüntüleme ve iptal etme</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>İşlem ID</th>
+        <th>Seçilen Yemekler</th>
+        <th>Ad-Soyad</th>
+        <th>Telefon No</th>
+        <th>Kisi Sayisi</th>
+        <th>Masa No</th>
+        <th>Rezervasyon Tarihi</th>
+        <th>Şef Durumu</th>
+        <th>Garson Durum</th>
+        <th>Notlarım</th>
+        <th>Rezervasyon iptali</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+<tr>
+    <td>@x.ID</td>
+    <td>@x.Yemeksecimi</td>
+    <td>@x.ad</td>
+    <td>@x.telefon</td>
+    <td>@x.kisisayisi</td>
+    <td>@x.masano</td>
+    <td>@x.rezervasyontarihi</td>
+    <td>@x.sefdurum</td>
+    <td>@x.garsondurum</td>
+    <td>@x.İstekler</td>
+    <th><a href="/müsterisiparis/Siparisiptal/@x.ID" class="btn btn-default" style="background-color:#4cff00">Rezarvasyonu iptal et</a></th>
+</tr>
+    }
+</table>
+

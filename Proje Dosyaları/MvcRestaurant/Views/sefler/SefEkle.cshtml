@@ -1,0 +1,24 @@
+﻿@model MvcRestaurant.Models.Entity.TBLSEF
+@{
+    ViewBag.Title = "SefEkle";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+    <form class="form-group" method="post">
+        <div></div>
+        <div style="margin-top:15px">
+            <label>Şef Adı</label>
+            @Html.TextBoxFor(y => y.AD, new { @class = "form-control" })
+        </div>
+        <div style="margin-top:15px">
+            <label>Şef Soyadı</label>
+            @Html.TextBoxFor(y => y.SOYAD, new { @class = "form-control" })
+        </div>
+        <div style="margin-top:15px">
+            <label>Şef Detayı</label>
+            @Html.TextAreaFor(y => y.DETAY, new { @class = "form-control" })
+        </div>
+        <div style="margin-top:15px">
+            <button class="btn btn-info">Şef Ekle</button>
+        </div>
+
+    </form>

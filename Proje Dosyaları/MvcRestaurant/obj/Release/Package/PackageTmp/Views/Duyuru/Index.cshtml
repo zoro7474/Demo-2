@@ -1,0 +1,30 @@
+﻿@using MvcRestaurant.Models.Entity;
+@model List<TBLDUYURULAR>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<h2>Duyuru Bölümü</h2>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Duyuru No</th>
+        <th>Kategori</th>
+        <th>Tarih</th>
+        <th>SİL</th>
+        <th>İçerik</th>
+    </tr>
+    @foreach (var prs in Model)
+    {
+<tr>
+    <td>@prs.ID</td>
+    <td>@prs.KATEGORI</td>
+    <td>@Convert.ToDateTime(prs.TARİH).ToString("dd/MM/yyyy")</td>
+    <td><a href="/Duyuru/DuyuruSil/@prs.ID" class="btn btn-danger">Sil</a></td>
+    <td><a href="/Duyuru/DuyuruDetay/@prs.ID" class="btn btn-default" style="background-color:skyblue">İçerik</a></td>
+</tr>
+    }
+</table>
+<a href="/Duyuru/YeniDuyuru/" class="btn btn-primary">Yeni Duyuru Ekle</a>
+

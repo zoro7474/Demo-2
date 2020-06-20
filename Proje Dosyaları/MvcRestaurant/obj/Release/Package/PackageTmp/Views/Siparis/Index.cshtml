@@ -1,0 +1,42 @@
+﻿@using MvcRestaurant.Models.Entity
+@model List<TBLRezervasyon>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+<h2>Rezervasyon İptali</h2>
+<table class="table table-bordered">
+    <tr>
+        <th>İşlem ID</th>
+        <th>İstenilen Yemek</th>
+        <th>Üye Adı</th>
+        <th>Telefon</th>
+        <th>İlgilenen Personel Adı</th>
+        <th>Rezervasyon Tarihi</th>
+        <th>Masa No</th>
+        <th>Kisi Sayisi</th>
+        <th>Garson Durum</th>
+        <th>Şef Durum</th>
+        <th>Notlarım</th>
+        <th>Rezervasyon iptali</th>
+        <th>Rezervasyon Güncelle</th>
+    </tr>
+    @foreach (var Uye in Model)
+    {
+<tr>
+    <th>@Uye.ID</th>
+    <th>@Uye.Yemeksecimi</th>
+    <th>@Uye.ad</th>
+    <th>@Uye.telefon</th>
+    <th>@Uye.personeladi</th>
+    <th>@Uye.rezervasyontarihi</th>
+    <th>@Uye.masano</th>
+    <th>@Uye.kisisayisi</th>
+    <th>@Uye.garsondurum</th>
+    <th>@Uye.sefdurum</th>
+    <td>@Uye.İstekler</td>
+    <th><a href="/Siparis/Siparisiptal/@Uye.ID" class="btn btn-danger" style="">iptal et</a></th>
+    <th><a href="/Siparis/SiparisiGetir/@Uye.ID" class="btn btn-success" style="">Güncelle</a></th>
+</tr>
+    }
+</table>

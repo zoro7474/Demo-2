@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBRESTAURANTModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TBLDUYURULAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="KATEGORI" Type="varchar" MaxLength="50" />
+    <Property Name="ICERİK" Type="varchar" MaxLength="250" />
+    <Property Name="TARİH" Type="datetime" />
+  </EntityType>
+  <EntityType Name="TBLHAKKIMIZDA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ACIKLAMA" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="TBLHAREKET">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="YEMEK" Type="int" />
+    <Property Name="UYE" Type="int" />
+    <Property Name="PERSONEL" Type="int" />
+    <Property Name="SIPARISTAHi" Type="text" />
+    <Property Name="MasaNo" Type="int" />
+    <Property Name="KisiSayisi" Type="int" />
+  </EntityType>
+  <EntityType Name="TBLİLETİSİM">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="50" />
+    <Property Name="mail" Type="varchar" MaxLength="50" />
+    <Property Name="konu" Type="varchar" MaxLength="50" />
+    <Property Name="mesaj" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="TBLKASA">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AY" Type="varchar" MaxLength="50" />
+    <Property Name="TUTAR" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="TBLKATAGORI">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TBLMESAJLAR">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GONDEREN" Type="varchar" MaxLength="50" />
+    <Property Name="ALICI" Type="varchar" MaxLength="50" />
+    <Property Name="KONU" Type="varchar" MaxLength="50" />
+    <Property Name="İCERİK" Type="varchar" MaxLength="500" />
+    <Property Name="TARİH" Type="smalldatetime" />
+  </EntityType>
+  <EntityType Name="TBLPERSONEL">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="tinyint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="PERSONEL" Type="varchar" MaxLength="50" />
+    <Property Name="Durum" Type="varchar" MaxLength="50" />
+    <Property Name="Calisma" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TBLRezervasyon">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Yemeksecimi" Type="text" />
+    <Property Name="ad" Type="text" />
+    <Property Name="mailadresi" Type="varchar" MaxLength="500" />
+    <Property Name="telefon" Type="text" />
+    <Property Name="İstekler" Type="varchar" MaxLength="500" />
+    <Property Name="personeladi" Type="text" />
+    <Property Name="rezervasyontarihi" Type="text" />
+    <Property Name="masano" Type="text" />
+    <Property Name="kisisayisi" Type="text" />
+    <Property Name="garsondurum" Type="varchar" MaxLength="50" />
+    <Property Name="sefdurum" Type="varchar" MaxLength="50" />
+    <Property Name="maliyet" Type="varchar" MaxLength="50" />
+    <Property Name="satis" Type="varchar" MaxLength="50" />
+    <Property Name="kar" Type="int" />
+    <Property Name="satiss" Type="int" />
+  </EntityType>
+  <EntityType Name="TBLSEF">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="50" />
+    <Property Name="SOYAD" Type="varchar" MaxLength="50" />
+    <Property Name="DETAY" Type="varchar" MaxLength="1000" />
+  </EntityType>
+  <EntityType Name="TBLUYELER">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="50" />
+    <Property Name="SOYAD" Type="varchar" MaxLength="50" />
+    <Property Name="MAIL" Type="varchar" MaxLength="50" />
+    <Property Name="KULLANICIADI" Type="varchar" MaxLength="50" />
+    <Property Name="SIFRE" Type="varchar" MaxLength="50" />
+    <Property Name="TEL" Type="varchar" MaxLength="50" />
+    <Property Name="YETKİ" Type="int" />
+    <Property Name="Fotograf" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="TBLYEMEK">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AD" Type="varchar" MaxLength="50" />
+    <Property Name="KATEGORI" Type="tinyint" />
+    <Property Name="SEF" Type="int" />
+    <Property Name="UCRET" Type="int" />
+    <Property Name="DURUM" Type="bit" />
+    <Property Name="GÜN" Type="int" />
+    <Property Name="Resim" Type="varchar" MaxLength="250" />
+  </EntityType>
+  <EntityContainer Name="DBRESTAURANTModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLDUYURULAR" EntityType="Self.TBLDUYURULAR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLHAKKIMIZDA" EntityType="Self.TBLHAKKIMIZDA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLHAREKET" EntityType="Self.TBLHAREKET" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLİLETİSİM" EntityType="Self.TBLİLETİSİM" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLKASA" EntityType="Self.TBLKASA" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLKATAGORI" EntityType="Self.TBLKATAGORI" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLMESAJLAR" EntityType="Self.TBLMESAJLAR" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLPERSONEL" EntityType="Self.TBLPERSONEL" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLRezervasyon" EntityType="Self.TBLRezervasyon" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLSEF" EntityType="Self.TBLSEF" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLUYELER" EntityType="Self.TBLUYELER" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TBLYEMEK" EntityType="Self.TBLYEMEK" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

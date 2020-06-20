@@ -1,0 +1,26 @@
+﻿@model MvcRestaurant.Models.Entity.TBLDUYURULAR
+    @{
+        ViewBag.Title = "YeniDuyuru";
+        Layout = "~/Views/Shared/Layout.cshtml";
+    }
+
+    <form class="form-group" method="post">
+        <div></div>
+        <div style="margin-top:15px">
+            <label>Duyuru Kategorisi</label>
+            <input type="text" class="form-control" name="KATEGORI" />
+        </div>
+        <div style="margin-top:15px">
+            <label>Duyuru İçerigi</label>
+            <input type="text" class="form-control" name="ICERİK" />
+        </div>
+        <div style="margin-top:15px">
+            <label>Duyuru Tarihi</label>
+            <input type="text" class="form-control" name="TARİH" />
+        </div>
+        <div style="margin-top:15px">
+            <button class="btn btn-info" id="Btn1">Duyuru Ekle</button>
+        </div>
+    </form>
+
+

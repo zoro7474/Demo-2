@@ -1,0 +1,635 @@
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\MvcRestaurant.dll.config
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\MvcRestaurant.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\MvcRestaurant.pdb
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\csc.exe
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\csc.exe.config
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\csc.rsp
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\csi.exe
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\csi.exe.config
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\csi.rsp
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.AppContext.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Console.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.Compression.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Net.Http.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.ValueTuple.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\vbc.exe
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\vbc.exe.config
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\vbc.rsp
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\VBCSCompiler.exe
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\Antlr3.Runtime.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\Newtonsoft.Json.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Helpers.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Mvc.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Optimization.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Razor.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Razor.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\WebGrease.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Helpers.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Mvc.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Optimization.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.Razor.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Razor.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\Newtonsoft.Json.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\Antlr3.Runtime.pdb
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.csprojAssemblyReference.cache
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CopyComplete
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.pdb
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\EntityFramework.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\EntityFramework.SqlServer.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\EntityFramework.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\EntityFramework.SqlServer.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\PagedList.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\PagedList.Mvc.dll
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\PagedList.xml
+C:\Users\ilkan\source\repos\MvcRestaurant\MvcRestaurant\bin\PagedList.Mvc.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.csprojAssemblyReference.cache
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CoreCompileInputs.cache
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.pdb
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\MvcRestaurant.dll.config
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\MvcRestaurant.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\MvcRestaurant.pdb
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\csc.exe
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\csc.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\csc.rsp
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\csi.exe
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\csi.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\csi.rsp
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.AppContext.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Console.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.Compression.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Net.Http.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.ValueTuple.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\vbc.exe
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\vbc.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\vbc.rsp
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\VBCSCompiler.exe
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\Antlr3.Runtime.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\EntityFramework.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\EntityFramework.SqlServer.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\Newtonsoft.Json.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\PagedList.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\PagedList.Mvc.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Helpers.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Mvc.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Optimization.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Razor.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Razor.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\WebGrease.dll
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\EntityFramework.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\EntityFramework.SqlServer.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\PagedList.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\PagedList.Mvc.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Helpers.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Mvc.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Optimization.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.Razor.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\System.Web.WebPages.Razor.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\Newtonsoft.Json.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\Antlr3.Runtime.pdb
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\umutg\OneDrive\Masaüstü\MvcRestaurant\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CopyComplete
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\MvcRestaurant.dll.config
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\MvcRestaurant.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\MvcRestaurant.pdb
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\csc.exe
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\csc.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\csc.rsp
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\csi.exe
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\csi.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\csi.rsp
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.AppContext.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Console.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.IO.Compression.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Net.Http.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.ValueTuple.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\vbc.exe
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\vbc.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\vbc.rsp
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\VBCSCompiler.exe
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Antlr3.Runtime.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\EntityFramework.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\EntityFramework.SqlServer.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Newtonsoft.Json.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\PagedList.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\PagedList.Mvc.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Helpers.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Mvc.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Optimization.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Razor.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.WebPages.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.WebPages.Razor.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\WebGrease.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\EntityFramework.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\EntityFramework.SqlServer.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\PagedList.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\PagedList.Mvc.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Helpers.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Mvc.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Optimization.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.Razor.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.WebPages.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Web.WebPages.Razor.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Newtonsoft.Json.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Antlr3.Runtime.pdb
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\obj\Debug\MvcRestaurant.csprojAssemblyReference.cache
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CoreCompileInputs.cache
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CopyComplete
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\obj\Debug\MvcRestaurant.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\obj\Debug\MvcRestaurant.pdb
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\MvcRestaurant.dll.config
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\MvcRestaurant.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\MvcRestaurant.pdb
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\csc.exe
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\csc.exe.config
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\csc.rsp
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\csi.exe
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\csi.exe.config
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\csi.rsp
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.AppContext.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Console.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.IO.Compression.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Net.Http.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.ValueTuple.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\vbc.exe
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\vbc.exe.config
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\vbc.rsp
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\VBCSCompiler.exe
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Antlr3.Runtime.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\EntityFramework.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\EntityFramework.SqlServer.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Newtonsoft.Json.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\PagedList.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\PagedList.Mvc.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Helpers.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Mvc.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Optimization.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Razor.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.WebPages.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.WebPages.Razor.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\WebGrease.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\EntityFramework.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\EntityFramework.SqlServer.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\PagedList.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\PagedList.Mvc.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Helpers.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Mvc.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Optimization.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.Razor.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.WebPages.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Web.WebPages.Razor.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Newtonsoft.Json.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Antlr3.Runtime.pdb
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ilkan\Desktop\2\MvcRestaurant\obj\Debug\MvcRestaurant.csprojAssemblyReference.cache
+C:\Users\ilkan\Desktop\2\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CopyComplete
+C:\Users\ilkan\Desktop\2\MvcRestaurant\obj\Debug\MvcRestaurant.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\obj\Debug\MvcRestaurant.pdb
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Data.Tools.Utilities.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Build.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\Microsoft.Build.Framework.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Collections.Immutable.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Memory.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Numerics.Vectors.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\System.Buffers.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\tr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\cs\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\de\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\en\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\es\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\fr\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\it\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\ja\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\ko\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\pl\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\pt-BR\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\ru\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\tr\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\umutg\OneDrive\Masaüstü\2\MvcRestaurant\bin\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Data.Tools.Utilities.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Build.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\Microsoft.Build.Framework.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Collections.Immutable.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Memory.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Numerics.Vectors.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\System.Buffers.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\cs\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\de\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\en\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\es\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\fr\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\it\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\ja\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\ko\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\pl\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\pt-BR\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\ru\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\tr\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\2\MvcRestaurant\bin\zh-Hant\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\MvcRestaurant.dll.config
+D:\2\MvcRestaurant\bin\MvcRestaurant.dll
+D:\2\MvcRestaurant\bin\MvcRestaurant.pdb
+D:\2\MvcRestaurant\bin\roslyn\csc.exe
+D:\2\MvcRestaurant\bin\roslyn\csc.exe.config
+D:\2\MvcRestaurant\bin\roslyn\csc.rsp
+D:\2\MvcRestaurant\bin\roslyn\csi.exe
+D:\2\MvcRestaurant\bin\roslyn\csi.exe.config
+D:\2\MvcRestaurant\bin\roslyn\csi.rsp
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\2\MvcRestaurant\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\2\MvcRestaurant\bin\roslyn\System.AppContext.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Collections.Immutable.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Console.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Globalization.Calendars.dll
+D:\2\MvcRestaurant\bin\roslyn\System.IO.Compression.dll
+D:\2\MvcRestaurant\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\2\MvcRestaurant\bin\roslyn\System.IO.FileSystem.dll
+D:\2\MvcRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Net.Http.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Net.Sockets.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\2\MvcRestaurant\bin\roslyn\System.ValueTuple.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Xml.XPath.dll
+D:\2\MvcRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\2\MvcRestaurant\bin\roslyn\vbc.exe
+D:\2\MvcRestaurant\bin\roslyn\vbc.exe.config
+D:\2\MvcRestaurant\bin\roslyn\vbc.rsp
+D:\2\MvcRestaurant\bin\roslyn\VBCSCompiler.exe
+D:\2\MvcRestaurant\bin\roslyn\VBCSCompiler.exe.config
+D:\2\MvcRestaurant\bin\Antlr3.Runtime.dll
+D:\2\MvcRestaurant\bin\EntityFramework.dll
+D:\2\MvcRestaurant\bin\EntityFramework.SqlServer.dll
+D:\2\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\2\MvcRestaurant\bin\Microsoft.Data.Tools.Components.dll
+D:\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.dll
+D:\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+D:\2\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+D:\2\MvcRestaurant\bin\Microsoft.Web.Infrastructure.dll
+D:\2\MvcRestaurant\bin\Newtonsoft.Json.dll
+D:\2\MvcRestaurant\bin\PagedList.dll
+D:\2\MvcRestaurant\bin\PagedList.Mvc.dll
+D:\2\MvcRestaurant\bin\System.Web.Helpers.dll
+D:\2\MvcRestaurant\bin\System.Web.Mvc.dll
+D:\2\MvcRestaurant\bin\System.Web.Optimization.dll
+D:\2\MvcRestaurant\bin\System.Web.Razor.dll
+D:\2\MvcRestaurant\bin\System.Web.WebPages.Deployment.dll
+D:\2\MvcRestaurant\bin\System.Web.WebPages.dll
+D:\2\MvcRestaurant\bin\System.Web.WebPages.Razor.dll
+D:\2\MvcRestaurant\bin\WebGrease.dll
+D:\2\MvcRestaurant\bin\Microsoft.Data.Tools.Utilities.dll
+D:\2\MvcRestaurant\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+D:\2\MvcRestaurant\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\2\MvcRestaurant\bin\Microsoft.Build.dll
+D:\2\MvcRestaurant\bin\Microsoft.Build.Framework.dll
+D:\2\MvcRestaurant\bin\System.Collections.Immutable.dll
+D:\2\MvcRestaurant\bin\System.Memory.dll
+D:\2\MvcRestaurant\bin\System.Threading.Tasks.Dataflow.dll
+D:\2\MvcRestaurant\bin\System.Numerics.Vectors.dll
+D:\2\MvcRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\2\MvcRestaurant\bin\System.Buffers.dll
+D:\2\MvcRestaurant\bin\EntityFramework.xml
+D:\2\MvcRestaurant\bin\EntityFramework.SqlServer.xml
+D:\2\MvcRestaurant\bin\PagedList.xml
+D:\2\MvcRestaurant\bin\PagedList.Mvc.xml
+D:\2\MvcRestaurant\bin\System.Web.Helpers.xml
+D:\2\MvcRestaurant\bin\System.Web.Mvc.xml
+D:\2\MvcRestaurant\bin\System.Web.Optimization.xml
+D:\2\MvcRestaurant\bin\System.Web.Razor.xml
+D:\2\MvcRestaurant\bin\System.Web.WebPages.xml
+D:\2\MvcRestaurant\bin\System.Web.WebPages.Deployment.xml
+D:\2\MvcRestaurant\bin\System.Web.WebPages.Razor.xml
+D:\2\MvcRestaurant\bin\Newtonsoft.Json.xml
+D:\2\MvcRestaurant\bin\Antlr3.Runtime.pdb
+D:\2\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\2\MvcRestaurant\bin\cs\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\de\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\en\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\es\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\fr\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\it\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\ja\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\ko\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\pl\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\pt-BR\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\ru\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\tr\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\zh-Hans\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\bin\zh-Hant\Microsoft.Build.resources.dll
+D:\2\MvcRestaurant\obj\Debug\MvcRestaurant.csprojAssemblyReference.cache
+D:\2\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CopyComplete
+D:\2\MvcRestaurant\obj\Debug\MvcRestaurant.dll
+D:\2\MvcRestaurant\obj\Debug\MvcRestaurant.pdb
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\MvcRestaurant.dll.config
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\MvcRestaurant.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\MvcRestaurant.pdb
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\csc.exe
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\csc.exe.config
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\csc.rsp
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\csi.exe
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\csi.exe.config
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\csi.rsp
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.AppContext.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Console.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.IO.Compression.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Net.Http.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Net.Sockets.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.ValueTuple.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\vbc.exe
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\vbc.exe.config
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\vbc.rsp
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\VBCSCompiler.exe
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Antlr3.Runtime.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\EntityFramework.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\EntityFramework.SqlServer.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Data.Tools.Components.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTesting.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Data.Tools.Schema.Sql.UnitTestingAdapter.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Newtonsoft.Json.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\PagedList.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\PagedList.Mvc.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Helpers.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Mvc.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Optimization.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Razor.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.WebPages.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.WebPages.Razor.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\WebGrease.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Data.Tools.Utilities.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Build.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.Build.Framework.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Collections.Immutable.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Memory.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Threading.Tasks.Dataflow.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Numerics.Vectors.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Buffers.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\EntityFramework.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\EntityFramework.SqlServer.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\PagedList.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\PagedList.Mvc.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Helpers.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Mvc.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Optimization.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.Razor.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.WebPages.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\System.Web.WebPages.Razor.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Newtonsoft.Json.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Antlr3.Runtime.pdb
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\cs\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\de\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\en\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\es\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\fr\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\it\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\ja\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\ko\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\pl\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\pt-BR\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\ru\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\tr\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\zh-Hans\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\bin\zh-Hant\Microsoft.Build.resources.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\obj\Debug\MvcRestaurant.csprojAssemblyReference.cache
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\obj\Debug\MvcRestaurant.csproj.CopyComplete
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\obj\Debug\MvcRestaurant.dll
+C:\Users\ilkan\Desktop\Proje Dosyaları\MvcRestaurant\obj\Debug\MvcRestaurant.pdb
