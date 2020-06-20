@@ -1,0 +1,1 @@
+Bu Bölümde Sql server Db Yedek Çıktısı vardır 2012 sürümü ve üstü Çalısır.
